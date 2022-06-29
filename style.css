@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #3399cc;
+  border: 24px solid #2b81ac;
+  height: 100vh;
+}
+main {
+  width: 950px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  font-size: 0;
+  line-height: 0;
+  border: 3px solid #ffffff;
+}
+li {
+  display: inline-block;
+  width: 25%;
+  border: 3px solid #ffffff;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  padding: 45px 0;
+}
+.half {
+  width: 50%;
+}
+.full {
+  width: 100%;
+}
+li:nth-child(1) {
+  background: #3399cc;
+}
+li:nth-child(2) {
+  background: #33cccc;
+}
